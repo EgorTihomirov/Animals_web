@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fafafa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(to right, #ffb347, #ffcc33);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+}
+
+header h1 {
+    color: white;
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+
+header p {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.intro {
+    padding: 160px 0;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.intro p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.features {
+    padding: 150px 0;
+    background: #f9f9f9;
+}
+
+.features h2 {
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.features .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 40px;
+}
+
+.features .feature {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.features .feature i.fas {
+    font-size: 52px;
+    color: #ffb347;
+    margin-bottom: 20px;
+}
+
+.features .feature h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.features .feature p {
+    font-size: 16px;
+}
+
+.testimonials {
+    padding: 180px 0;
+    background: #fff;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 34px;
+    margin-bottom: 60px;
+}
+
+.testimonial-grid {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.testimonials .testimonial {
+    flex-grow: 1;
+    max-width: 350px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.testimonial blockquote {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.testimonial cite {
+    font-size: 16px;
+    color: #999;
+}
+
+.cta {
+    padding: 220px 0;
+    background: linear-gradient(to right, #ffb347, #ffcc33);
+    text-align: center;
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+}
+
+.cta h2 {
+    color: white;
+    font-size: 46px;
+    margin-bottom: 40px;
+}
+
+.cta p {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 60px;
+}
+
+.cta .btn {
+    padding: 16px 32px;
+    background: white;
+    color: #ffb347;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+}
+
+.cta .btn:hover {
+    background: #f9f9f9;
+}
+
+footer {
+    padding: 55px 0;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+footer p {
+    font-size: 16px;
+    color: #777;
+}
